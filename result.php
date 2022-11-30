@@ -21,7 +21,7 @@
   <h4>Il Paragrafo contiene <?php echo strlen($paragrafo) ?> tra caratteri e spazi</h4>
 
   <h1>Censuriamo alcune parole</h1>
-  <p><?php echo str_replace('ciao','***',$paragrafo) ?></p>
+  <p><?php echo str_replace($word,'***',$paragrafo) ?></p>
 
 </body>
 </html>
