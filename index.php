@@ -14,6 +14,7 @@
   <div class="container">
     <div class="row">
       <div class="col">
+        <h1>Inserisci prima la parola da censurare</h1>
       <form action="./result.php" method="POST">
         <input type="text" name="word" placeholder="da censurare"><br>
         <textarea name="paragrafo" id=""rows="4" placeholder="scrivi qualcosa" type="text"></textarea><br>
