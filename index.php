@@ -11,12 +11,12 @@
   <title>PHP Badwords</title>
 </head>
 <body>
-  <div class="container">
+  <div class="container my-5 pb-4">
     <div class="row">
       <div class="col">
-        <h1>Inserisci prima la parola da censurare</h1>
+        <h1 class="pb-2">Inserisci prima la parola da censurare</h1>
       <form action="./result.php" method="POST">
-        <input type="text" name="word" placeholder="da censurare"><br>
+        <input type="text" name="word" placeholder="da censurare" class="my-2"><br>
         <textarea name="paragrafo" id=""rows="4" placeholder="scrivi qualcosa" type="text"></textarea><br>
         <button type="submit">Invia</button>
       </form>
